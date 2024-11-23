@@ -54,4 +54,12 @@ module.exports = async (t)=>{
     strictEqual(chunks[1][1], 4);
     strictEqual(chunks[2][0], 5);
   });
+
+  await t.test('size arg is 0', () => {
+    const arr = [1, 2, 3, 4, 5];
+    const chunks = _.chunk(arr, 0);
+  
+    strictEqual(arr.length, 5);
+    strictEqual(chunks.length, 0);
+  });
 }

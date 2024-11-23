@@ -11,10 +11,8 @@ An implementation of [Underscore.js](https://underscorejs.org/) / [Lodash](https
 
 ## Running Tests
 
-Clone the repo and run -
-
 ```
 npm test
 ```
 
-Tested on Node.js v20.
+Tested on Node.js v22.

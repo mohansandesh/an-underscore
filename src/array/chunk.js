@@ -1,7 +1,7 @@
 function chunk(arr, size=1){
   const returnArr = [];
 
-  for(let i = 0; i < arr.length; i++){
+  for(let i = 0; i < arr.length && size > 0; i++){
     const chunk = [];
 
     for(let j = 0; j < size && i < arr.length; j++){
