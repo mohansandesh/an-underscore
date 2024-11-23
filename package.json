@@ -1,0 +1,11 @@
+{
+  "name": "an-underscore",
+  "version": "0.1.0",
+  "description": "An implementation of Underscore.js / Lodash",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Mohan Sandesh",
+  "license": "ISC"
+}
