@@ -1,3 +1,11 @@
+/**
+ * Creates an array of elements split into groups the length of size.
+ * If array can't be split evenly, the final chunk will be the remaining elements.
+ * 
+ * @param {*} arr
+ * @param {*} size 
+ * @returns newArray
+ */
 function chunk(arr, size=1){
   const returnArr = [];
 

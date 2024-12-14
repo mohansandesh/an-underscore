@@ -1,13 +1,14 @@
 # an-underscore
 
-An implementation of [Underscore.js](https://underscorejs.org/) / [Lodash](https://lodash.com/docs/).
+An example implementation of Underscore.js / Lodash.
 
 ## Implemented Functions
 
 ### Array
 
 * _.chunk(array, [size=1])
-  * https://lodash.com/docs/#chunk
+* _.compact(array)
+* _.concat(array, [values])
 
 ## Running Tests
 
